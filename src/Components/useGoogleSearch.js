@@ -1,0 +1,25 @@
+import React from "react";
+import {API_KEY} from "./Keys";
+
+const CONTEXT_KEY = "9281b2e0c01bb4127";
+
+const useGoogleSearch = (term) => {
+  const [data, setData] = React.useState(null);
+
+  React.useEffect(() => {
+    const fetchData = async () => {
+      fetch(
+        `https://www.googleapis.com/customsearch/v1?key=${API_KEY}&cx=${CONTEXT_KEY}&q=${term}`
+      )
+        .then((response) => response.json())
+        .then((result) => {
+          setData(result);
+        });
+    };
+    fetchData();
+  }, [term]);
+
+  return { data };
+}
+
+export default useGoogleSearch;
