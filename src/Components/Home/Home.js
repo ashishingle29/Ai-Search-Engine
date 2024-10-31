@@ -1,7 +1,7 @@
 import React from "react";
 import Search from "./Search";
 import "./Home.css";
-import NavBar from "../NevBar/NavBar";
+// import NavBar from "../NevBar/NavBar";
 // import { Link } from 'react-router-dom'
 
 function Home() {
