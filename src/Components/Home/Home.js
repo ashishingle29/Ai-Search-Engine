@@ -24,7 +24,7 @@ function Home() {
       <div className="home__body">
         <div>
             <h1>Ai Search Engine</h1>
-            <p className="developedby">Developed By <a href="https://ashishingle.netlify.app/" target="_blank">Ashish Ingle</a> </p>
+            <p className="developedby">Developed By <a href="https://ashishingle.netlify.app/" target="_blank" rel="noreferrer" >Ashish Ingle</a> </p>
         </div>
         {/* <img
           alt="Google"
