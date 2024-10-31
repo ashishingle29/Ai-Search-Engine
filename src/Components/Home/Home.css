@@ -15,3 +15,14 @@
     object-fit: contain;
     height: 100px;
 }
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.developedby{
+    text-align: center;
+
+}
+

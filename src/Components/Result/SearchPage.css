@@ -10,9 +10,13 @@ border-bottom: 1px solid gray;
 }
 
 .searchPage__header img{
-    height: 30px;
+    /* height: 30px;
     margin: 20px;
-    margin-right: 50px;
+    margin-right: 50px; */
+    height: 50px;
+    margin: 20px;
+    border: 3px solid #838383;
+    background: #5f5f5fd9;
 }
 
 .searchPage__options {

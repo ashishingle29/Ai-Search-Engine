@@ -20,7 +20,8 @@ function SearchPage() {
         <div className='searchPage'>
             <div className='searchPage__header'>
                 <Link to="/">
-                    <img alt="Ai-Search Engine" src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' />
+                    <img className='mainlogo' alt="Ai-Search Engine" src='https://ashishingle.netlify.app/images/favicon.ico' />
+
                 </Link>
 
                 <div className='searchPage__headerBody'>
